@@ -1,0 +1,51 @@
+/* INSERTION DES DONNEES */
+INSERT INTO AGENCE VALUES (1, 'Havas Voyages', 'Paris');
+INSERT INTO AGENCE VALUES (2, 'Nouvelles Frontières', 'Lyon');
+INSERT INTO AGENCE VALUES (3, 'Promovacances', 'Marseille');
+INSERT INTO AGENCE VALUES (4, 'Club Med', 'Bordeaux');
+
+INSERT INTO LABEL_ECOLOGIQUE VALUES (1, 'Ecolabel Européen', 5);
+INSERT INTO LABEL_ECOLOGIQUE VALUES (2, 'Green Globe', 4);
+INSERT INTO LABEL_ECOLOGIQUE VALUES (3, 'Clef Verte', 3);
+INSERT INTO LABEL_ECOLOGIQUE VALUES (4, 'EarthCheck', 2);
+
+INSERT INTO HOTEL VALUES (1, 'Le Bristol', 'Paris', 5, 350); 
+INSERT INTO HOTEL VALUES (2, 'Ibis Budget', 'Marseille', 2, 60); 
+INSERT INTO HOTEL VALUES (3, 'Hôtel de la Plage', 'Ajaccio', 4, 150);
+INSERT INTO HOTEL VALUES (4, 'Grand Hotel', 'Bordeaux', 5, 280);
+INSERT INTO HOTEL VALUES (5, 'Auberge des Montagnes', 'Chamonix', 3, 100);
+INSERT INTO HOTEL VALUES (6, 'The Savoy', 'Londres', 5, 450);
+
+INSERT INTO TRANSPORT VALUES (1, 'Avion', 'Air France', 150.50);  
+INSERT INTO TRANSPORT VALUES (2, 'Train', 'SNCF', 12.30);        
+INSERT INTO TRANSPORT VALUES (3, 'Bateau', 'Corsica Ferries', 85.00);
+INSERT INTO TRANSPORT VALUES (4, 'Voiture', 'Hertz', 110.00);   
+INSERT INTO TRANSPORT VALUES (5, 'Avion', 'easyJet', 130.00);
+INSERT INTO TRANSPORT VALUES (6, 'Train', 'Eurostar', 15.50);
+INSERT INTO TRANSPORT VALUES (7, 'Voiture', 'Sixt', 95.00);
+INSERT INTO TRANSPORT VALUES (8, 'Avion', 'Emirates', 450.00);
+
+INSERT INTO CLIENT VALUES (1, 'Dupont', 'Jean', 'jean.dupont@gmail.com', '01234567891');
+INSERT INTO CLIENT VALUES (2, 'Martin', 'Claire', 'claire.martin@gmail.com', '06987654321');
+INSERT INTO CLIENT VALUES (3, 'Bernard', 'Luc', 'luc.bernard@gmail.com', '06112233445');
+INSERT INTO CLIENT VALUES (4, 'Petit', 'Sophie', 'sophie.petit@gmail.com', '07554433221');
+INSERT INTO CLIENT VALUES (5, 'Robert', 'Emma', 'emma.robert@gmail.com', '06998877665');
+INSERT INTO CLIENT VALUES (6, 'Richard', 'Paul', 'paul.richard@gmail.com', '07889966554');
+
+INSERT INTO VOYAGE VALUES (101, 'Paris', 'Ajaccio', '2026-07-10', '2026-07-25', 900, 930, 15, 1, 2, 3, 1); 
+INSERT INTO VOYAGE VALUES (102, 'Lyon', 'Paris', '2026-05-01', '2026-05-05', 300, 460, 4, 1, 1, 2, 2);   
+INSERT INTO VOYAGE VALUES (103, 'Marseille', 'Chamonix', '2026-12-15', '2026-12-22', 1200, 450, 7, 5, 3, 2, 3);
+INSERT INTO VOYAGE VALUES (104, 'Paris', 'Bordeaux', '2026-08-05', '2026-08-12', 600, 580, 7, 4, 1, 7, 1);
+INSERT INTO VOYAGE VALUES (105, 'Paris', 'Londres', '2026-09-10', '2026-09-15', 450, 340, 5, 6, 4, 6, 1);
+INSERT INTO VOYAGE VALUES (106, 'Lyon', 'Dubaï', '2026-11-01', '2026-11-15', 2500, 5000, 14, 1, 2, 8, 2);
+INSERT INTO VOYAGE VALUES (107, 'Marseille', 'Ajaccio', '2026-07-10', '2026-07-25', 500, 320, 15, 1, 2, 3, 3); 
+INSERT INTO VOYAGE VALUES (108, 'Bordeaux', 'Londres', '2026-09-10', '2026-09-15', 550, 740, 5, 6, 4, 6, 4);
+INSERT INTO VOYAGE VALUES (109, 'Paris', 'Dubaï', '2026-11-01', '2026-11-15', 2400, 5240, 14, 1, 2, 8, 1);
+
+INSERT INTO RESERVER VALUES (1, 101, '2026-01-15');
+INSERT INTO RESERVER VALUES (2, 102, '2026-02-10'); 
+INSERT INTO RESERVER VALUES (3, 103, '2026-03-01');
+INSERT INTO RESERVER VALUES (4, 104, '2026-04-12');
+INSERT INTO RESERVER VALUES (5, 105, '2026-05-20');
+INSERT INTO RESERVER VALUES (1, 105, '2026-05-21');
+INSERT INTO RESERVER VALUES (6, 106, '2026-06-05');
